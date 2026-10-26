@@ -27,7 +27,7 @@ Installed copies update themselves. Older versions and change notes are under [R
 - **Shares appear as drives** — a drive letter in Explorer, a volume under Locations in Finder. Browse, open, save, copy, rename and delete as usual.
 - **Download on open** — browsing shows every file without downloading anything; a file is fetched the first time you open it.
 - **Offline copies** — opened files stay on the computer (7 days after last use by default) so they open instantly and work without a connection.
-- **Keep offline** — choose folders to keep on the computer in full, kept up to date automatically.
+- **Keep offline** *(licence)* — choose folders to keep on the computer in full, kept up to date automatically.
 - **Every change goes back** — saves, new files and folders, renames and deletes reach the server within seconds; changes made offline are sent when the server is back.
 - **Never overwrites someone else's work** — if a file changed on the server while you were editing it, your version is saved next to it as *"Name (Riaan's copy …)"*.
 - **Deletes are recoverable** — deleted files go to a recycle folder on the share (optional).
@@ -53,7 +53,7 @@ Installed copies update themselves. Older versions and change notes are under [R
 
 ## Free and supporter versions
 
-Drive Mapper is **free for one drive**, with every feature. If it's useful to you, [buy me a coffee](https://buymeacoffee.com/hybridrcg) — you'll get a **licence key** by email that connects **unlimited drives** and removes the reminders. Paste it under **Settings › About**.
+Drive Mapper is **free for one drive**. A **[supporter licence ($5)](https://buymeacoffee.com/hybridrcg/e/591363)** unlocks **unlimited drives** and **Keep offline folders** on up to **5 computers**, and removes the reminders. The key arrives by email — paste it under **Settings › About**. See and manage the computers on your key at [zaaz.co.za/drivemapper](https://zaaz.co.za/drivemapper/).
 
 ## Installing
 
