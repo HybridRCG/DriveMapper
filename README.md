@@ -51,6 +51,10 @@ Installed copies update themselves. Older versions and change notes are under [R
 
 <sub>Screenshots use made-up example data.</sub>
 
+## Free and supporter versions
+
+Drive Mapper is **free for one drive**, with every feature. If it's useful to you, [buy me a coffee](https://buymeacoffee.com/hybridrcg) — you'll get a **licence key** by email that connects **unlimited drives** and removes the reminders. Paste it under **Settings › About**.
+
 ## Installing
 
 **Windows** — run the installer.
