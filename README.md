@@ -69,6 +69,13 @@ xattr -cr "/Applications/Drive Mapper.app"
 
 Then open Drive Mapper, enter the fileserver address and login under **Settings › Connection**, and add your drives under **Settings › Shared folders**.
 
+## Roadmap
+
+Things still to do:
+
+- [ ] **Android app**: browse your Drive Mapper shares from an Android phone or tablet, open files on demand and keep chosen folders offline.
+- [ ] **iPhone app**: the same for iPhone and iPad, with the shares in the Files app.
+
 ## Support
 
 Questions and licensing: Riaan Grobler, Groblers CSS.
