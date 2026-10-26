@@ -8,6 +8,8 @@
   <a href="https://buymeacoffee.com/hybridrcg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="41"></a>
 </p>
 
+<p align="center"><img src="docs/screenshots/mac-drives-light.png" width="820" alt="Drive Mapper on a Mac: three drives connected over the office LAN, one file saving to the server, two folders kept offline"></p>
+
 ## Download
 
 Always the newest version:
@@ -30,6 +32,24 @@ Installed copies update themselves. Older versions and change notes are under [R
 - **Never overwrites someone else's work** — if a file changed on the server while you were editing it, your version is saved next to it as *"Name (Riaan's copy …)"*.
 - **Deletes are recoverable** — deleted files go to a recycle folder on the share (optional).
 - **Office, home or on the road** — connects over the office LAN, Tailscale or NetBird, whichever works best, and switches automatically when one drops.
+
+## Screenshots
+
+<table>
+<tr>
+<td width="50%"><img src="docs/screenshots/windows-drives-dark.png" alt="Windows, dark mode: drives O:, P: and S:"><br><sub><b>Windows</b> — each share is a drive letter. Dark mode follows the system.</sub></td>
+<td width="50%"><img src="docs/screenshots/mac-keep-offline.png" alt="Keep offline: choose folders to keep on the computer"><br><sub><b>Keep offline</b> — tick folders to keep on the computer and in sync.</sub></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/mac-settings-connection.png" alt="Connection settings: LAN, Tailscale and NetBird addresses"><br><sub><b>Connection</b> — office LAN, Tailscale and NetBird; the fastest path wins and it switches automatically.</sub></td>
+<td><img src="docs/screenshots/windows-settings-shares.png" alt="Shared folders: add drives from the server's list"><br><sub><b>Shared folders</b> — pick shares from the server and choose drive letters.</sub></td>
+</tr>
+<tr>
+<td colspan="2"><img src="docs/screenshots/mac-activity.png" alt="Activity: saves, downloads, renames, deletes and a conflict copy"><br><sub><b>Activity</b> — every download, save, rename and delete, including when a colleague changed a file you were editing and your version was saved as a copy.</sub></td>
+</tr>
+</table>
+
+<sub>Screenshots use made-up example data.</sub>
 
 ## Installing
 
