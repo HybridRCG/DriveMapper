@@ -1,0 +1,88 @@
+Copyright
+Drive Mapper © 2026 Riaan Grobler, trading as Groblers CSS. All rights reserved.
+
+Drive Mapper includes the Windows and macOS desktop apps, the file caching
+and sync engine, the installers and updater, and all related updates,
+documentation and designs (together "the Software"). The Software, including
+its source code, screens, layouts, icons created for it and documentation, is
+owned by Riaan Grobler and is protected by the Copyright Act 98 of 1978 (South
+Africa) and international copyright treaties.
+
+Licence to use
+Organisations that Groblers CSS supplies the Software to (each "the Licensee")
+are granted a non-exclusive, non-transferable licence to use it to work with
+their own fileservers. The licence covers the staff and devices the Licensee
+authorises, and only while the Licensee remains in good standing with
+Groblers CSS.
+
+The Software is licensed, not sold. No ownership of the Software, its source
+code or any intellectual property in it passes to the Licensee. Making the
+source code or installers viewable or downloadable (for example on GitHub)
+does not grant any licence to them.
+
+What is not allowed
+Without prior written permission from Riaan Grobler, the Licensee and its
+users may not:
+  • copy, modify, translate or create works based on the Software;
+  • reverse-engineer, decompile or disassemble it, or try to extract its source code;
+  • sell, rent, lease, lend, sublicense, distribute or host it for anyone else;
+  • remove or change any copyright, trademark or licence notice in it;
+  • let anyone outside the Licensee use it;
+  • use it, or anything learned from it, to build a competing product.
+
+Your files and data
+Files on the Licensee's fileserver, and the copies Drive Mapper keeps on each
+computer, remain the property of the Licensee. Fileserver passwords are stored
+encrypted by the operating system (macOS Keychain, Windows DPAPI). Groblers CSS
+accesses the Licensee's files only to set up, support and back up its systems,
+and does not sell or share them.
+
+The Licensee is the "responsible party" for personal information under the
+Protection of Personal Information Act 4 of 2013 (POPIA) and remains
+responsible for having a lawful reason to collect and keep it. Where Groblers
+CSS handles that information, it acts as an "operator" and keeps it
+confidential and reasonably secure.
+
+Confidentiality
+The Software, how it works and any non-public information about it are
+confidential. Users must not disclose them to third parties, during the
+licence or after it ends.
+
+Third-party software and trademarks
+The Software uses open-source components under their own licences (mainly
+MIT, BSD and Apache 2.0), including Electron, Chromium, Node.js and
+electron-updater. Their copyright notices and licence terms still apply and
+are available on request.
+
+Microsoft, Windows, Explorer, Apple, macOS, Finder, Tailscale, NetBird, Samba
+and other product names are trademarks of their respective owners. They are
+mentioned only to describe how the Software works with them; no endorsement
+is implied.
+
+No warranty
+The Software is provided "as is" and "as available". To the extent the law
+allows, Groblers CSS gives no warranty that it will be error-free or
+uninterrupted, or fit for any particular purpose. Drive Mapper is not a
+backup: keep the fileserver backed up independently.
+
+Limitation of liability
+To the extent the law allows, Riaan Grobler and Groblers CSS are not liable
+for any indirect, special or consequential loss, including loss of data,
+profit or business, that comes from using or being unable to use the
+Software. Any liability is limited to the licence fees paid for the Software
+in the 12 months before the claim.
+
+Ending the licence
+The licence ends automatically if its terms are broken, or when the
+agreement between the Licensee and Groblers CSS ends. The Licensee must then
+stop using the Software and remove it from its devices. Files on the
+fileserver are not affected.
+
+Governing law
+This notice is governed by the laws of the Republic of South Africa, and
+South African courts have jurisdiction. If any part of it cannot be enforced,
+the rest still applies. A separate signed agreement between the Licensee and
+Groblers CSS takes precedence over this notice where they differ.
+
+Contact
+Licensing, permission requests and questions: Riaan Grobler, Groblers CSS.
