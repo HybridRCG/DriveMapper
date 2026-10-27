@@ -2,7 +2,7 @@
 
 <h1 align="center">Drive Mapper</h1>
 
-<p align="center">Your fileserver as a drive in <b>Explorer</b> and <b>Finder</b> — files download when you open them, work offline, and every change goes back to the server.</p>
+<p align="center">Your fileserver as a drive in <b>Explorer</b> and <b>Finder</b> — over <b>SMB, SFTP, FTP/FTPS or NFS</b>. Files download when you open them, work offline, and every change goes back to the server.</p>
 
 <p align="center">
   <a href="https://buymeacoffee.com/hybridrcg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="41"></a>
@@ -31,6 +31,8 @@ Installed copies update themselves. Older versions and change notes are under [R
 - **Every change goes back** — saves, new files and folders, renames and deletes reach the server within seconds; changes made offline are sent when the server is back.
 - **Never overwrites someone else's work** — if a file changed on the server while you were editing it, your version is saved next to it as *"Name (Riaan's copy …)"*.
 - **Deletes are recoverable** — deleted files go to a recycle folder on the share (optional).
+- **SMB, SFTP, FTP/FTPS or NFS** — a Windows share or NAS, a Linux server over SSH, an FTP server or web host, or an NFS export. Pick the type and Drive Mapper asks only what that type needs (password or SSH key file, FTPS encryption, NFS version). Mix types freely: each connection's folders become drives.
+- **Safe connections** — SSH host keys and self-signed FTPS certificates are remembered the first time and checked every time after, so you'll know if a server is ever swapped out.
 - **Office, home or on the road** — connects over the office LAN, Tailscale or NetBird, whichever works best, and switches automatically when one drops.
 
 ## Screenshots
@@ -41,7 +43,7 @@ Installed copies update themselves. Older versions and change notes are under [R
 <td width="50%"><img src="docs/screenshots/mac-keep-offline.png" alt="Keep offline: choose folders to keep on the computer"><br><sub><b>Keep offline</b> — tick folders to keep on the computer and in sync.</sub></td>
 </tr>
 <tr>
-<td><img src="docs/screenshots/mac-settings-connection.png" alt="Connection settings: LAN, Tailscale and NetBird addresses"><br><sub><b>Connection</b> — office LAN, Tailscale and NetBird; the fastest path wins and it switches automatically.</sub></td>
+<td><img src="docs/screenshots/mac-settings-connection.png" alt="Connection settings: connection type, LAN, Tailscale and NetBird addresses, and more connections folded away"><br><sub><b>Connection</b> — SMB, SFTP, FTP or NFS over office LAN, Tailscale or NetBird; the fastest path wins. Each connection folds away to one status line.</sub></td>
 <td><img src="docs/screenshots/windows-settings-shares.png" alt="Shared folders: add drives from the server's list"><br><sub><b>Shared folders</b> — pick shares from the server and choose drive letters.</sub></td>
 </tr>
 <tr>
@@ -67,7 +69,9 @@ xattr -cr "/Applications/Drive Mapper.app"
 
 (The app is not signed with an Apple Developer certificate, so macOS needs this once. Updates take care of it themselves.)
 
-Then open Drive Mapper, enter the fileserver address and login under **Settings › Connection**, and add your drives under **Settings › Shared folders**.
+Then open Drive Mapper, choose the connection type (SMB, SFTP, FTP or NFS) and enter the address and login under **Settings › Connection** — use **Add Connection** for more servers — and add your drives under **Settings › Shared folders**.
+
+**NFS on Windows** needs *Client for NFS* (Windows Pro or Enterprise: *Turn Windows features on or off › Services for NFS*).
 
 ## Roadmap
 
