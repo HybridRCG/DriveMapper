@@ -24,10 +24,12 @@ Installed copies update themselves. Older versions and change notes are under [R
 
 ## What it does
 
-- **Shares appear as drives** — a drive letter in Explorer, a volume under Locations in Finder. Browse, open, save, copy, rename and delete as usual.
+- **Shares appear as drives** — a drive letter in Explorer, an entry in the Finder sidebar on a Mac (also added to Path Finder's favourites). Browse, open, save, copy, rename and delete as usual.
+- **Cloud files on Windows** *(beta)* — optionally the drives work like OneDrive: cloud and tick icons and *Always keep on this device* in Explorer, while the drive letters stay the same, so Word, Excel and Access (mail merge, linked workbooks) see ordinary files.
 - **Download on open** — browsing shows every file without downloading anything; a file is fetched the first time you open it.
 - **Offline copies** — opened files stay on the computer (7 days after last use by default) so they open instantly and work without a connection.
 - **Keep offline** *(licence)* — choose folders to keep on the computer in full, kept up to date automatically.
+- **Folder sync** — keep a folder on this computer and a folder on a drive the same, both ways: for a program that needs its files in a local folder while other programs or people use them on the server. Sync the whole folder or tick only some of the folders inside it. New files, changes and deletes go both ways; if a file changed on both sides, both versions are kept. Shows live progress with the time left, and can be paused or stopped at any time.
 - **Every change goes back** — saves, new files and folders, renames and deletes reach the server within seconds; changes made offline are sent when the server is back.
 - **Never overwrites someone else's work** — if a file changed on the server while you were editing it, your version is saved next to it as *"Name (Riaan's copy …)"*.
 - **Deletes are recoverable** — deleted files go to a recycle folder on the share (optional).
@@ -45,6 +47,10 @@ Installed copies update themselves. Older versions and change notes are under [R
 <tr>
 <td><img src="docs/screenshots/mac-settings-connection.png" alt="Connection settings: connection type, LAN, Tailscale and NetBird addresses, and more connections folded away"><br><sub><b>Connection</b> — SMB, SFTP, FTP or NFS over office LAN, Tailscale or NetBird; the fastest path wins. Each connection folds away to one status line.</sub></td>
 <td><img src="docs/screenshots/windows-settings-shares.png" alt="Shared folders: add drives from the server's list"><br><sub><b>Shared folders</b> — pick shares from the server and choose drive letters.</sub></td>
+</tr>
+<tr>
+<td><img src="docs/screenshots/windows-settings-foldersync-dark.png" alt="Folder sync: a local folder kept the same as a folder on a drive, with progress and recent changes"><br><sub><b>Folder sync</b> — a folder on this computer and one on the drive kept the same both ways, with progress, time left and recent changes.</sub></td>
+<td><img src="docs/screenshots/windows-settings-foldersync-picker-dark.png" alt="Choosing where on the drive the folders go"><br><sub><b>Choose where it goes</b> — pick the place on the drive, or make a new folder there, and see the exact destination before you start.</sub></td>
 </tr>
 <tr>
 <td colspan="2"><img src="docs/screenshots/mac-activity.png" alt="Activity: saves, downloads, renames, deletes and a conflict copy"><br><sub><b>Activity</b> — every download, save, rename and delete, including when a colleague changed a file you were editing and your version was saved as a copy.</sub></td>
