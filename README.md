@@ -5,6 +5,12 @@
 <p align="center">Your fileserver as a drive in <b>Explorer</b> and <b>Finder</b> — over <b>SMB, SFTP, FTP/FTPS or NFS</b>. Files download when you open them, work offline, and every change goes back to the server.</p>
 
 <p align="center">
+  <a href="https://zaaz.co.za/drivemapper/"><b>Website</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/HybridRCG/DriveMapper/releases/latest"><b>Download</b></a> &nbsp;·&nbsp;
+  <a href="https://zaaz.co.za/drivemapper/licence/"><b>My licence</b></a>
+</p>
+
+<p align="center">
   <a href="https://buymeacoffee.com/hybridrcg"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="41"></a>
 </p>
 
@@ -61,7 +67,9 @@ Installed copies update themselves. Older versions and change notes are under [R
 
 ## Free and supporter versions
 
-Drive Mapper is **free for one drive**. A **[supporter licence ($5)](https://buymeacoffee.com/hybridrcg/e/591363)** unlocks **unlimited drives** and **Keep offline folders** on up to **5 computers**, and removes the reminders. The key arrives by email — paste it under **Settings › About**. See and manage the computers on your key at [zaaz.co.za/drivemapper](https://zaaz.co.za/drivemapper/).
+Drive Mapper is **free for one drive**. A **[supporter licence ($5)](https://buymeacoffee.com/hybridrcg/e/591363)** unlocks **unlimited drives** and **Keep offline folders** on up to **5 computers**, and removes the reminders. The key arrives by email — paste it under **Settings › About**. See and manage the computers on your key at [zaaz.co.za/drivemapper/licence](https://zaaz.co.za/drivemapper/licence/).
+
+**Lost your key?** In the app under **Settings › About**, or on the [licence page](https://zaaz.co.za/drivemapper/licence/): enter the email you bought with, type in the 6-digit code that arrives, and your key is back.
 
 ## Installing
 
@@ -88,7 +96,7 @@ Things still to do:
 
 ## Support
 
-Questions and licensing: Riaan Grobler, Groblers CSS.
+Questions and licensing: Riaan Grobler, Groblers CSS. More about Drive Mapper at [zaaz.co.za/drivemapper](https://zaaz.co.za/drivemapper/).
 If Drive Mapper saves you time, [buy me a coffee](https://buymeacoffee.com/hybridrcg) ☕
 
 ## Licence
