@@ -75,13 +75,13 @@ Drive Mapper is **free for one drive**. A **[supporter licence ($5)](https://buy
 
 **Windows** — run the installer.
 
-**Mac** — open the `.dmg`, drag **Drive Mapper** to **Applications**, then once in Terminal:
+**Mac** — open the `.dmg` and drag **Drive Mapper** into **Applications**. If macOS says the app "is damaged", open Terminal, type `cd /Applications`, then run this and open it again:
 
 ```sh
-xattr -cr "/Applications/Drive Mapper.app"
+xattr -cr Drive\ Mapper.app/
 ```
 
-(The app is not signed with an Apple Developer certificate, so macOS needs this once. Updates take care of it themselves.)
+(The app is not signed with an Apple Developer certificate, so macOS needs this once after the first install. Updates take care of it themselves.)
 
 Then open Drive Mapper, choose the connection type (SMB, SFTP, FTP or NFS) and enter the address and login under **Settings › Connection** — use **Add Connection** for more servers — and add your drives under **Settings › Shared folders**.
 
