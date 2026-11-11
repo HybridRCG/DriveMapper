@@ -41,7 +41,7 @@ Installed copies update themselves. Older versions and change notes are under [R
 - **Deletes are recoverable** — deleted files go to a recycle folder on the share (optional).
 - **SMB, SFTP, FTP/FTPS or NFS** — a Windows share or NAS, a Linux server over SSH, an FTP server or web host, or an NFS export. Pick the type and Drive Mapper asks only what that type needs (password or SSH key file, FTPS encryption, NFS version). Mix types freely: each connection's folders become drives.
 - **Safe connections** — SSH host keys and self-signed FTPS certificates are remembered the first time and checked every time after, so you'll know if a server is ever swapped out.
-- **Office, home or on the road** — connects over the office LAN, Tailscale or NetBird, whichever works best, and switches automatically when one drops.
+- **Office, home or on the road** — connects over the office LAN, Tailscale or NetBird, whichever works best, and switches automatically when one drops — or back to the office LAN when you return, without the drives disconnecting.
 
 ## Screenshots
 
