@@ -23,8 +23,7 @@ Always the newest version:
 | | |
 |---|---|
 | **Windows 10/11** | [Drive-Mapper-Windows-Setup.exe](https://github.com/HybridRCG/DriveMapper/releases/latest/download/Drive-Mapper-Windows-Setup.exe) |
-| **Mac — Apple silicon (M1–M4)** | [Drive-Mapper-Mac-Apple-Silicon.dmg](https://github.com/HybridRCG/DriveMapper/releases/latest/download/Drive-Mapper-Mac-Apple-Silicon.dmg) |
-| **Mac — Intel** | [Drive-Mapper-Mac-Intel.dmg](https://github.com/HybridRCG/DriveMapper/releases/latest/download/Drive-Mapper-Mac-Intel.dmg) |
+| **Mac** (Apple silicon and Intel) | [Drive-Mapper-Mac.dmg](https://github.com/HybridRCG/DriveMapper/releases/latest/download/Drive-Mapper-Mac.dmg) |
 
 Installed copies update themselves. Older versions and change notes are under [Releases](https://github.com/HybridRCG/DriveMapper/releases).
 
